@@ -13,4 +13,4 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
-</Project>
+</Project> 
