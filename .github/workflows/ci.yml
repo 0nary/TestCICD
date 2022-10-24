@@ -10,7 +10,7 @@ on:
 jobs:
   versioning:
     # Skip the job if it's not running in the `neuroglia-io/TestCICD` repo
-    if: github.repository == 'neuroglia-io/TestCICD' && github.ref_name == 'main'
+    if: github.repository == '0nary/TestCICD' && github.ref_name == 'main'
     uses: ./.github/workflows/versioning.yml
     secrets: inherit
 
